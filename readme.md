@@ -21,22 +21,22 @@ To run this project locally, follow these steps:
    pip install -r requirements.txt
 
 5. Create a `.env` file in the project root directory and add your environment variables:
-   COOKIE=[Page cookie]
-   HOST=[Plugin and theme repository]
-   SITEMAP_URLS=[Repository sitemaps, comma-separated]
-   USER_AGENT=Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
-   STRIPE_KEY=[Stripe test/live key]
-   SECRET_KEY=[Any key/password]
-   PORT=[80 or 443]
-   DEBUG=[True or False]
-   DATABASE_URL=[Full postgres link]
-   BUCKETEER_AWS_ACCESS_KEY_ID=
-   BUCKETEER_AWS_SECRET_ACCESS_KEY=
-   BUCKETEER_AWS_REGION=eu-west-1
-   BUCKETEER_BUCKET_NAME=
-   CACHE_AGE=[Days, e.g., 365]
-   GA_MEASUREMENT_ID=[Google Analytics ID]
-   SPECIFIC_PATH=[Page to load GTag - '/' or '' means all pages]
+   COOKIE=[Page cookie]  
+   HOST=[Plugin and theme repository]  
+   SITEMAP_URLS=[Repository sitemaps, comma-separated]  
+   USER_AGENT=Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0  
+   STRIPE_KEY=[Stripe test/live key]  
+   SECRET_KEY=[Any key/password]  
+   PORT=[80 or 443]  
+   DEBUG=[True or False]  
+   DATABASE_URL=[Full postgres link]  
+   BUCKETEER_AWS_ACCESS_KEY_ID=  
+   BUCKETEER_AWS_SECRET_ACCESS_KEY=  
+   BUCKETEER_AWS_REGION=eu-west-1  
+   BUCKETEER_BUCKET_NAME=  
+   CACHE_AGE=[Days, e.g., 365]  
+   GA_MEASUREMENT_ID=[Google Analytics ID]  
+   SPECIFIC_PATH=[Page to load GTag - '/' or '' means all pages]  
 
 7. Use scripts to fetch initial data:  
    python cron_scripts\full_update.py  
