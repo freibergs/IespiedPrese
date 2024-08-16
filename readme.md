@@ -1,56 +1,56 @@
-# 🛠️ IespiedPrese.lv Projekts
+# 🛠️ IespiedPrese.lv Project
 
-Sveicināti IespiedPrese.lv projektā! Šī ir Flask bāzēta tīmekļa lietotne, kas ļauj lietotājiem pārlūkot un lejupielādēt dažādas tēmas un spraudņus. Lietotne arī atbalsta lietotāju autentifikāciju, cron-jobus produktu un lietotāju atjaunināšanai, abonementu plānus, vēsturi u.c.
+Welcome to the IespiedPrese.lv project! This is a Flask-based web application that allows users to browse and download various themes and plugins. The application also supports user authentication, cron jobs for product and user updates, subscription plans, history tracking, and more.
 
-## 🚀 Instalācija
+## 🚀 Installation
 
-Lai palaistu šo projektu lokāli, seko šiem soļiem:
+To run this project locally, follow these steps:
 
-1. Klonē repozitoriju:  
+1. Clone the repository:
    git clone https://github.com/zajebs/IespiedPrese.lv.git
 
-2. Ieej projekta direktorijā:  
+2. Navigate to the project directory: 
    cd iespiedprese
 
-3. Izveido un aktivizē virtuālo vidi:  
+3. Create and activate a virtual environment:
    python -m venv venv  
    source venv/bin/activate  # MacOS/Linux  
    .\venv\Scripts\activate  # Windows
 
-4. Instalē nepieciešamās atkarības:  
+4. Install the required dependencies: 
    pip install -r requirements.txt
 
-5. Izveido .env failu projekta saknes direktorijā un pievienoj savus mainīgos:  
-   COOKIE=[Lapas cepums]  
-   HOST=[Pluginu un tēmu repozitorijs]  
-   SITEMAP_URLS=[Repozitorija sitemapi, comma separated]  
-   USER_AGENT=Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0 (vai kāds cits user agent)  
-   STRIPE_KEY=[Stripe testa/live atslēga]  
-   SECRET_KEY=[jebkāda atslēga/parole]  
-   PORT=[80 vai 443]  
-   DEBUG=[True vai False]  
-   DATABASE_URL=[postgres pilns links]  
-   BUCKETEER_AWS_ACCESS_KEY_ID=  
-   BUCKETEER_AWS_SECRET_ACCESS_KEY=  
-   BUCKETEER_AWS_REGION=eu-west-1=  
-   BUCKETEER_BUCKET_NAME=  
-   CACHE_AGE=[dienas, piemēram 365]  
-   GA_MEASUREMENT_ID=[Google ID no Analytics]  
-   SPECIFIC_PATH=[Kurā lapā jālādē GTag - '/' vai '' nozīmē, ka visās]  
+5. Create a `.env` file in the project root directory and add your environment variables:
+   COOKIE=[Page cookie]
+   HOST=[Plugin and theme repository]
+   SITEMAP_URLS=[Repository sitemaps, comma-separated]
+   USER_AGENT=Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+   STRIPE_KEY=[Stripe test/live key]
+   SECRET_KEY=[Any key/password]
+   PORT=[80 or 443]
+   DEBUG=[True or False]
+   DATABASE_URL=[Full postgres link]
+   BUCKETEER_AWS_ACCESS_KEY_ID=
+   BUCKETEER_AWS_SECRET_ACCESS_KEY=
+   BUCKETEER_AWS_REGION=eu-west-1
+   BUCKETEER_BUCKET_NAME=
+   CACHE_AGE=[Days, e.g., 365]
+   GA_MEASUREMENT_ID=[Google Analytics ID]
+   SPECIFIC_PATH=[Page to load GTag - '/' or '' means all pages]
 
-7. Izmanto skriptus, lai iegūtu sākotnējos datus:  
+7. Use scripts to fetch initial data:  
    python cron_scripts\full_update.py  
    python cron_scripts\download_images.py
 
-6. Palaid lietotni:  
+6. Launch the application:
    python iespiedprese.py
 
 ## 📜 Licence
 
-Šis projekts ir licencēts saskaņā ar MIT licenci.
+This project is licensed under the MIT License.
 
 ## 📞 Kontakti
 
-Ja tev ir kādi jautājumi vai ieteikumi, lūdzu, sazinies ar mani pa e-pastu hello@rihards.dev. Vairāk kontakti atrodami https://rihards.dev
+If you have any questions or suggestions, please contact me at hello@rihards.dev. More contact information can be found at https://rihards.dev.
 
-Priecīgu Wordpressingu! 😊
+Happy WordPressing! 😊
