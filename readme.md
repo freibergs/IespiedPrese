@@ -17,7 +17,7 @@ To run this project locally, follow these steps:
    source venv/bin/activate  # MacOS/Linux  
    .\venv\Scripts\activate  # Windows
 
-4. Install the required dependencies: 
+4. Install the required dependencies:  
    pip install -r requirements.txt
 
 5. Create a `.env` file in the project root directory and add your environment variables:  
