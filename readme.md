@@ -47,7 +47,7 @@ To run this project locally, follow these steps:
 
 ## 📜 Licence
 
-This project is licensed under the [MIT Licence](LICENSE).
+This project is licensed under the [MIT Licence](LICENSE.md).
 
 ## 📞 Kontakti
 
