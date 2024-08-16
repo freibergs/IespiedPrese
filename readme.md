@@ -6,13 +6,13 @@ Welcome to the IespiedPrese.lv project! This is a Flask-based web application th
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository:  
    git clone https://github.com/zajebs/IespiedPrese.lv.git
 
 2. Navigate to the project directory: 
    cd iespiedprese
 
-3. Create and activate a virtual environment:
+3. Create and activate a virtual environment:  
    python -m venv venv  
    source venv/bin/activate  # MacOS/Linux  
    .\venv\Scripts\activate  # Windows
@@ -20,7 +20,7 @@ To run this project locally, follow these steps:
 4. Install the required dependencies: 
    pip install -r requirements.txt
 
-5. Create a `.env` file in the project root directory and add your environment variables:
+5. Create a `.env` file in the project root directory and add your environment variables:  
    COOKIE=[Page cookie]  
    HOST=[Plugin and theme repository]  
    SITEMAP_URLS=[Repository sitemaps, comma-separated]  
@@ -42,7 +42,7 @@ To run this project locally, follow these steps:
    python cron_scripts\full_update.py  
    python cron_scripts\download_images.py
 
-6. Launch the application:
+6. Launch the application:  
    python iespiedprese.py
 
 ## 📜 Licence
