@@ -7,7 +7,7 @@ Welcome to the IespiedPrese.lv project! This is a Flask-based web application th
 To run this project locally, follow these steps:
 
 1. Clone the repository:  
-   git clone https://github.com/zajebs/IespiedPrese.lv.git
+   git clone https://github.com/freibergs/IespiedPrese.lv.git
 
 2. Navigate to the project directory: 
    cd iespiedprese
