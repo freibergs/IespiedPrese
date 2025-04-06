@@ -49,7 +49,7 @@ To run this project locally, follow these steps:
 
 This project is licensed under the [MIT Licence](LICENSE.md).
 
-## 📞 Kontakti
+## 📞 Contacts
 
 If you have any questions or suggestions, please contact me at hello@rihards.dev. More contact information can be found at https://rihards.dev.
 
